@@ -1,0 +1,60 @@
+:root {
+    font-family: monospace;
+}
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+body {
+    background-color: rgb(239, 239, 240);
+}
+
+table {
+    font-size: 14px;
+}
+table, tr, td, th {
+    border: 1px solid gainsboro;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    height: 50px;
+}
+
+th {
+    border: 1px solid rgb(48, 107, 146);
+    background-color: rgb(144, 163, 214);
+    color: whitesmoke
+}
+
+tr:nth-child(even) {
+    background-color: rgb(236, 242, 250);
+}
+* {
+    box-sizing: border-box;
+}
+
+.distribution {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.distribution > * {
+    height: 500px;
+}
+    .distribution__table {
+        overflow-y: scroll;
+        flex: 0 1 40%;
+        padding-right: 5px;
+    }
+        .distribution__table > table {
+            width: 100%;
+        }
+        .distribution__table > table td:first-child {
+            width: 50px;
+        }
+
+    .distribution__plot {
+        flex: 0 1 59%;
+    }
