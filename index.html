@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.plot.ly/plotly-2.3.0.min.js"></script>
+    <script>
+        MathJax = {
+            loader: {load: ['input/asciimath', 'output/chtml']}
+        }
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <h1>`distribution: f(u,v)=round(2sqrt(-2log(u))cos(2piv))`</h1>
+    <hr>
+    <div class="distribution">
+        <div class="distribution__table">
+            <table>
+                <thead>
+                    <th>index</th>
+                    <th>number</th>
+                    <th>count</th>
+                </thead>
+                <tbody>
+    
+                </tbody>
+            </table>
+        </div>
+        <div class="distribution__plot"></div>
+    </div>
+    <hr>
+    <script src="script.js"></script>
+</body>
+</html>
